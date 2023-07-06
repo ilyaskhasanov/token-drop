@@ -233,11 +233,12 @@ const Home = () => {
               style={{ objectFit: "contain" }}
             />
           )}
-
           <h2 className={styles.title}>Claim Tokens</h2>
           <p className={styles.explain}>
             Claim ERC20 tokens from{" "}
             <span className={styles.pink}>{contractMetadata?.name}</span>
+          <br/>
+          contract address: 0x351296D36B6867D839f5e66D1087e1F946106658
           </p>
         </>
       )}
